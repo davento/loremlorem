@@ -14,6 +14,9 @@ public class Paragraph {
 
     private List<Paragraph> allParagraphs(){
         List<Paragraph> list  = new ArrayList<>();
+        list.add(new Paragraph("paragraph1"));
+        list.add(new Paragraph("paragraph2"));
+        list.add(new Paragraph("paragraph3"));
         return list;
     }
 
