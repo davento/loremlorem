@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+
 <body>
 <ul th:each="loremIpsum: ${list}">
-    <li th:text="${loremIpsum}"/>
+    <li th:text="${loremIpsum.content}"/>
 </ul>
 
 </body>

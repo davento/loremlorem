@@ -12,6 +12,14 @@ public class Word {
         this.content = content;
     }
 
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
     private List<Word> allWords(){ // male repository
         List<Word> list  = new ArrayList<>();
         list.add(new Word("word1"));
@@ -28,7 +36,7 @@ public class Word {
 
     public List<Word> generate(int size){
         List<Word> list = new ArrayList<>();
-        for (int i = 0; i <= size; i++){
+        for (int i = 1; i <= size; i++){
             list.add(getRandom());
         }
         return list;

@@ -12,6 +12,14 @@ public class Sentence {
         this.content = content;
     }
 
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
     private List<Sentence> allSentences(){ // male repository
         List<Sentence> list  = new ArrayList<>();
         list.add(new Sentence("bleble bleble bleble1"));
@@ -29,7 +37,7 @@ public class Sentence {
 
     public List<Sentence> generate(int size){
         List<Sentence> list = new ArrayList<>();
-        for (int i = 0; i <= size; i++){
+        for (int i = 1; i <= size; i++){
             list.add(getRandom());
         }
         return list;
