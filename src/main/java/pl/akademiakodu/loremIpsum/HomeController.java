@@ -11,7 +11,6 @@ import pl.akademiakodu.loremIpsum.model.Word;
 @Controller
 public class HomeController {
 
-
     @GetMapping("/print")
     public String print(@RequestParam String options,@RequestParam int count, ModelMap map) {
         if(options.equals("sentences")){
@@ -30,9 +29,5 @@ public class HomeController {
     public String form() {
         return "form";
     }
-
-
-
-
 }
 

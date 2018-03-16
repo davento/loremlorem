@@ -41,5 +41,4 @@ public class Paragraph {
         }
         return list;
     }
-
 }

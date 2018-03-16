@@ -42,5 +42,4 @@ public class Sentence {
         }
         return list;
     }
-
 }
