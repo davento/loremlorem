@@ -16,4 +16,12 @@ public class HomeController {
     public String print() {
         return "print";
     }
+
+
+    @GetMapping("/loremIpsum")
+    public String getLoremIpsum() {
+        return "loremIpsum";
+    }
+
 }
+
