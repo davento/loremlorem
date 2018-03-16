@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" th:href="style.css">
+</head>
+
+<body>
+
+    <h1> LOREM IPSUM</h1>
+
+    <form action="/print" method="get">
+    <br><br>
+    <textarea name="content">Treść</textarea>
+    <br><br>
+    <input type="text" placeholder="1"  name="count">
+
+    <select name="options">
+        <option value="paragraph">paragraph</option>
+        <option value="sentences">sentences</option>
+        <option value="words">words</option>
+    </select>
+
+    <input type="submit" value="Generate">
+
+
+</form>
+
+</body>
+</html>
